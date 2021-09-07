@@ -1,0 +1,73 @@
+body {
+    background: url(./Images/th.jpg) no-repeat center center/ cover;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    font-weight: bold;
+}
+
+input{
+    display:block;
+    height: 60px;
+    width: 320px;
+    background:#22b2da;
+    color: #f0d43a;
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+    border: none;
+}
+
+button{
+    width: 325px;
+    height: 100px;
+    background: #3b4a6b;
+    color: #f0d43a;
+    font-size: 26px;
+    font-family: 'Oswald', sans-serif;
+    border: none;
+    box-shadow: 2px 4px 5px #444;
+
+}
+
+h1{
+    font-size: 36px;
+}
+
+::placeholder { /* Firefox, Chrome, Opera */ 
+    color: #f0d43a; 
+    font-family: 'Oswald', sans-serif;
+
+} 
+  
+:-ms-input-placeholder { /* Internet Explorer 10-11 */ 
+    color: #f0d43a; 
+    font-family: 'Oswald', sans-serif;
+
+} 
+  
+::-ms-input-placeholder { /* Microsoft Edge */ 
+    color: #f0d43a; 
+    font-family: 'Oswald', sans-serif;
+
+} 
+
+#app{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color:rgb(216, 228, 54);
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+}
+#feelings,#id {
+    width : 16em;
+}
+
+.entryHolder {
+    color: #f0d43a;
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+}
+
+
+#two,#three,#four,#six{
+    margin: 15px;
+}
